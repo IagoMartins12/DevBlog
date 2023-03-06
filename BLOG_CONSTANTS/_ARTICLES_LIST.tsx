@@ -1,34 +1,10 @@
 import { iArticle } from "../src/shared/interfaces";
 
-// Import author profiles, just type the name you have set in _BLOG_SETUP inside the curly brackets
+// Import author profiles
 import { MAYUR, RUPALI } from "./_BLOG_SETUP";
 
 // main article list to display all atricles
-/**
- * Example article object
- * 
- {
-    path: '/pages/tutorial/tutorial/how-to-setup-blog',
-    featureArticle: true,
-    preview: {
-        // the author object you created in _BLOG_SETUP file
-        author: MAYUR,
-        date: "March 03 2022",
-        articleTitle: "How to setup this plog template",
-        tags: "demo, blog setup",
-        thumbnail: "/images/tutorials/demo-image.jpg",
-        shortIntro: "These are the steps to setup your blog",
-    },
-    seo: {
-        title: "These are the steps to setup your blog",
-        description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-        keywords: "demo, blog setup",
-        ogImage: "/images/tutorials/demo-image.jpg",
-        twitterHandle: "@mayur_nalwala",
-    }
-}
- */
+
 
 // clear this article list and add your own
 const ARTICLES_LIST: iArticle[] = [
@@ -199,11 +175,29 @@ const ARTICLES_LIST: iArticle[] = [
     path: "/pages/blog/your-first-article.tsx",
     preview: {
       author: MAYUR,
-      date: "August 6 2022",
-      articleTitle: "Your first article",
+      date: "March 4 2023",
+      articleTitle: "Meu primeiro artigo",
       shortIntro:
-        "This is a demo file for your first article, you can copy structure of this file to create multile article.",
+        "Teste teste",
       tags: "demo, your first article",
+      thumbnail: "/public/imp_assets/tutorials/how-to-write-first-article.svg",
+      category: "tutorial",
+    },
+    seo: {
+      keywords:
+        "demo, all components, style guide, styling, css, tailwind css, tailwind, webexpe, webexpe.com, styling tutorial, icons, how to use icons in website",
+      ogImage: "/public/imp_assets/tutorials/how-to-write-first-article.svg",
+    },
+  },
+  {
+    path: "/pages/blog/outro-artigo.tsx",
+    preview: {
+      author: MAYUR,
+      date: "March 5 2023",
+      articleTitle: "Meu segundo artigo",
+      shortIntro:
+        "Teste teste",
+      tags: "demo, tags tags tags, blogueiro d++",
       thumbnail: "/public/imp_assets/tutorials/how-to-write-first-article.svg",
       category: "tutorial",
     },
