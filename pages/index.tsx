@@ -12,7 +12,7 @@ const Home = () => {
       <section className='w-full md:pt-[100px] md:pb-[70px] pt-[130px] pb-20 mb-10 dark:bg-slate-800 bg-slate-200'>
         <div className="container text-center px-3">
           <Text title className='text-3xl'>
-            Blog feito utilizando Next Js, Typescript e Taildwind CSS
+            Sejam bem vindos ao Dev Blog :)
           </Text>
 
           <Text p className="mt-3 text-xl">
@@ -35,7 +35,7 @@ const Home = () => {
       <div className="container mx-auto lg:px-[15px] px-0">
         <div className={'flex flex-wrap'}>
           <FeaturedArticleSection />
-          <h1 className='px-3 w-full mb-5 text-xl md:text-3xl font-medium'>Checkout the below articles on how to use different layouts and components</h1>
+          <h1 className='px-3 w-full mb-5 text-xl md:text-3xl font-medium'>Todos os artigos</h1>
           <hr className='border-1 mb-5 w-[98%] mx-auto' />
           <HomeNonFeatureArticles />
         </div>

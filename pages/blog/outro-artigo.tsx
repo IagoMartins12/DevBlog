@@ -7,9 +7,9 @@ import { HowToUseImageCode, HowToUseList, HowToUseSeperator, HowToUseTextCode } 
 const Article = () => {
     return (
         // pass blogcentered as show below for article page centered layout
-        <PageLayout  blogwithsidebar>
+        <PageLayout  home>
             <Text p>
-                This current article is made using <b>blogcentered</b> layout. This layout will be used to write your blog posts or articles.
+                layout home
             </Text>
             <CodeBlock
                 code={`

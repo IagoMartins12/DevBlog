@@ -39,7 +39,7 @@ const NavSidebar = ({ openSidebar = false, closeNavSidebar, navSetup, changeThem
 
             <aside className={combineClasses(classes.nav_sidebar_wrapper, openSidebar && classes.open, 'dark:bg-slate-900 dark:text-white bg-white text-black')}>
                 <div className='flex items-center justify-between pb-3' onClick={closeNavSidebar}>
-                    <p className=''>menu</p>
+                    <p className=''></p>
                     <div><MdOutlineClose className='text-slate-800 dark:text-white text-[25px]' /></div>
                 </div>
                 <hr />
@@ -61,34 +61,13 @@ const NavSidebar = ({ openSidebar = false, closeNavSidebar, navSetup, changeThem
                         env === 'development' ?
                             <>
                                 <hr />
-                                <Text subtitle className='mt-3 !text-[18px]'>Examples and tutorials</Text>
-                                <LinkTo href='/pages/tutorial/all-components.tsx' passHref className='text-[16px] block my-3'>
-                                    All Components
-                                </LinkTo>
-                                <LinkTo href='/pages/tutorial/style-guide.tsx' passHref className='text-[16px] block my-3'>
-                                    Style Guide
-                                </LinkTo>
-                                <LinkTo href='/pages/tutorial/home-layout.tsx' passHref className='text-[16px] block my-3'>
-                                    Home Page Layout
-                                </LinkTo>
-                                <LinkTo href='/pages/tutorial/blog-with-sidebar-layout.tsx' passHref className='text-[16px] block my-3'>
-                                    Page Layout for article with sidebar
-                                </LinkTo>
-                                <LinkTo href='/pages/tutorial/blog-with-centered-layout.tsx' passHref className='text-[16px] block my-3'>
-                                    Page Layout for centered article
-                                </LinkTo>
-                                <LinkTo href='/pages/tutorial/how-to-setup-blog.tsx' passHref className='text-[16px] block my-3'>
-                                    How to setup your blog
-                                </LinkTo>
-                                <LinkTo href='/pages/tutorial/how-to-write-your-first-article.tsx' passHref className='text-[16px] block my-3'>
-                                    How to write your first article
-                                </LinkTo>
-                                <LinkTo href='/pages/tutorial/how-to-deploy-blog.tsx' passHref className='text-[16px] block my-3'>
-                                    How to export the blog
-                                </LinkTo>
-                                <LinkTo href='/pages/tutorial/icons.tsx' passHref className='text-[16px] block my-3'>
-                                    Icons
-                                </LinkTo>
+                                <Text subtitle className='mt-3 !text-[18px]'>Artigos</Text>
+                                    <LinkTo href='/pages/blog/teste.tsx' passHref className='text-[16px] block my-3'>
+                                        Teste
+                                    </LinkTo>
+                                    <LinkTo href='/pages/tutorial/icons.tsx' passHref className='text-[16px] block my-3'>
+                                        Icons
+                                    </LinkTo>
                             </>
                             : null
                     }
@@ -98,7 +77,7 @@ const NavSidebar = ({ openSidebar = false, closeNavSidebar, navSetup, changeThem
                 <div className='my-5'>
                     {
                         navSetup.socials && <>
-                            <p className='font-light'>Follow us : </p> {
+                            <p className='font-light'>Follow me : </p> {
                                 navSetup.socials.map((each: iNavSocials) => (
                                     <a href={each.link} key={each.link} target="_blank" rel="noopener noreferrer" className='text-[28px] inline-block mr-5 mt-2'>{each.icon}</a>
                                 ))

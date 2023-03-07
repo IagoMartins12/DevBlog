@@ -47,7 +47,12 @@ const ContactUs = () => {
                     Tenho experiência principalmente com o stack de JavaScript (ES6+, NodeJs, NextJs e ReactJs). 
                     Sinta-se livre para me enviar mensagem nas minhas redes sociais: 
                 </Text>
-                <a href="https://github.com/IagoMartins12/"><AiFillGithub/> </a>
+                <div className="flex flex-row gap-4 mt-8">
+                    <a href="https://github.com/IagoMartins12/"><AiFillGithub className="w-16 h-16"/> </a>
+                    <a href="https:/linkedin.com/in/iago-martins-313838213/"><AiFillLinkedin className="w-16 h-16"/> </a>
+                    <a href="https://www.instagram.com/iago_martins1/"><AiFillInstagram className="w-16 h-16"/> </a>
+                    <a href="https://www.facebook.com/profile.php?id=100002150451949"><AiFillFacebook className="w-16 h-16"/> </a>
+                </div>
             </section>
 
         </PageLayout>

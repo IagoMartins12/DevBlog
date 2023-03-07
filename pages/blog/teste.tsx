@@ -6,9 +6,11 @@ const Article = () => {
         // pass blogwithsidebar as show below for article page with sidebar layout
         <PageLayout blogwithsidebar>
             {/* Replace the below content with your content */}
-            Testando meu primeiro artigo
+            Outro layout
             <br/>
-            Aiiiiiiiiiiiii
+            Qual fica melhor?
+            <br/>
+            Menu lateral
         </PageLayout>
     )
 }

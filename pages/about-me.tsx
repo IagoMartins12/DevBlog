@@ -9,7 +9,7 @@ const AboutUs = () => {
         title: 'About Me',
         description: `Seja bem vindos ao meu blog, onde irei documentar meus conhecimentos e aprendizagem como desenvolvedor :).`,
         keywords: ' contact me, martinsiagosaraiva@gmail.com, next js blog ',
-        author: 'Iago martins'
+        author: 'Iago martins' 
     }
     return (
         <PageLayout PAGE_SEO={PAGE_SEO} home>

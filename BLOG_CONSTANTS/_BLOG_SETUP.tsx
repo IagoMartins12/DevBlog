@@ -3,7 +3,7 @@ import { IAuthor, iNavSetup, iSEO } from "../src/shared/interfaces";
 import { AiFillGithub, AiFillLinkedin, AiFillInstagram, AiFillFacebook } from "react-icons/ai";
 
 
-export const MAYUR: IAuthor = {
+export const IAGO: IAuthor = {
     name: "Iago martins",
     designation: "FullStack Developer",
     bio: "Um desenvolvedor apaixonado pela tecnologia, tenho conhecimento e experiência principalmente no stack JavaScript (ES6+,React e NodeJs. Atualmente estagiando como fullstack na empresa Pmovil LTDA",
@@ -16,23 +16,6 @@ export const MAYUR: IAuthor = {
         {
             icon: <AiFillLinkedin />,
             link: 'http:/linkedin.com/in/iago-martins-313838213/'
-        },
-    ]
-}
-
-export const RUPALI: IAuthor = {
-    name: "Rupali Yadav",
-    designation: "IT Analyst",
-    bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    profilePic: "",
-    social: [
-        {
-            icon: <AiFillGithub />,
-            link: 'https://github.com/rupali-yadav'
-        },
-        {
-            icon: <AiFillLinkedin />,
-            link: 'https://www.linkedin.com/in/rupali-yadav-087bb4112/'
         },
     ]
 }
@@ -109,12 +92,16 @@ export const PRIMARY_NAV: iNavSetup = {
     ],
     socials: [
         {
-            link: 'https://www.facebook.com/',
+            link: 'https://www.facebook.com/profile.php?id=100002150451949',
             icon: <AiFillFacebook />
         },
         {
-            link: 'https://www.instagram.com/',
+            link: 'https://www.instagram.com/iago_martins1/',
             icon: <AiFillInstagram />
+        },
+        {
+            link: 'https:/linkedin.com/in/iago-martins-313838213/',
+            icon: <AiFillLinkedin />
         },
     ]
 }
@@ -124,7 +111,6 @@ export const DEFAULT_SEO: iSEO = {
     description: "Um blog onde irei documentar meus estudos e experiencias na minha trajetoria na area de desenvolvimento! ",
     keywords: "Blog, next js,next js blog, blog setup, typescript, nextjs typescript, react js blog template, responsive blog template",
     url: WEBSITE_URL,
-    author: `${MAYUR.name}`,
-    twitterHandle: '@WebExpe',
+    author: `${IAGO.name}`,
     ogImage: '/public/images/og-image.jpg'
 }
