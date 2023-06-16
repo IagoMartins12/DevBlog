@@ -27,43 +27,24 @@ const ARTICLES_LIST: iArticle[] = [
     },
   },
   {
-    path: "/pages/blog/outro-artigo.tsx",
-    featureArticle:false,
+    path: "/pages/blog/useQuerys.tsx",
+    featureArticle: false,
     preview: {
       author: IAGO,
-      date: "March 5 2023",
-      articleTitle: "Meu segundo artigo",
+      date: "Junho 16 2023",
+      articleTitle: "useQuerys",
       shortIntro:
-        "Teste teste",
-      tags: "demo, tags tags tags, blogueiro d++",
-      thumbnail: "/public/images/react-icon.png",
-      category: "tutorial",
+        "Neste artigo, exploraremos as funcionalidades do useQuerys e forneceremos exemplos de código para ilustrar sua utilização",
+      tags: "useQuerys, Reactjs",
+      thumbnail: "/public/images/code2-icon.png",
     },
     seo: {
       keywords:
         "demo, all components, style guide, styling, css, tailwind css, tailwind, webexpe, webexpe.com, styling tutorial, icons, how to use icons in website",
-        ogImage: "/public/images/react-icon.png",
-      },
-  },
-  {
-    path: "/pages/blog/teste.tsx",
-    featureArticle:false,
-    preview: {
-      author: IAGO,
-      date: "March 7 2023",
-      articleTitle: "Outro teste",
-      shortIntro:
-        "Teste teste",
-      tags: "teste, tags tags tags, blogueiro d++",
-      thumbnail: "/public/images/react-icon.png",
-      category: "Teste",
-    },
-    seo: {
-      keywords:
-        "demo, all components, style guide, styling, css, tailwind css, tailwind, webexpe, webexpe.com, styling tutorial, icons, how to use icons in website",
-      ogImage: "/public/images/react-icon.png",
+        ogImage: "/public/images/code2-icon.png",
     },
   },
+
 ];
 
 export const SORTED_ARTICLES_BY_DATE = ARTICLES_LIST.sort((a, b) =>

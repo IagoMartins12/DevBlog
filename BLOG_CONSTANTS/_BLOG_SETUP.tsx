@@ -4,7 +4,7 @@ import { AiFillGithub, AiFillLinkedin, AiFillInstagram, AiFillFacebook } from "r
 
 
 export const IAGO: IAuthor = {
-    name: "Iago martins",
+    name: "Iago Martins",
     designation: "FullStack Developer",
     bio: "Um desenvolvedor apaixonado pela tecnologia, tenho conhecimento e experiência principalmente no stack JavaScript (ES6+,React e NodeJs. Atualmente estagiando como fullstack na empresa Pmovil LTDA",
     profilePic: "",
@@ -15,7 +15,7 @@ export const IAGO: IAuthor = {
         },
         {
             icon: <AiFillLinkedin />,
-            link: 'http:/linkedin.com/in/iago-martins-313838213/'
+            link: 'https:/linkedin.com/in/iago-martins-313838213/'
         },
     ]
 }
@@ -56,7 +56,7 @@ export const PRIMARY_NAV: iNavSetup = {
         {
             // to open a link in new tab pass newTab: true
             label: 'Github Repo',
-            path: 'https://github.com/IagoMartins12/Personal-Blog',
+            path: 'https://github.com/IagoMartins12/Personal-Blog-',
             newTab: true
         },
         {
@@ -107,10 +107,10 @@ export const PRIMARY_NAV: iNavSetup = {
 }
 
 export const DEFAULT_SEO: iSEO = {
+    author: `${IAGO.name}`,
     title: "Dev blog",
     description: "Um blog onde irei documentar meus estudos e experiencias na minha trajetoria na area de desenvolvimento! ",
     keywords: "Blog, next js,next js blog, blog setup, typescript, nextjs typescript, react js blog template, responsive blog template",
     url: WEBSITE_URL,
-    author: `${IAGO.name}`,
     ogImage: '/public/images/og-image.jpg'
 }
